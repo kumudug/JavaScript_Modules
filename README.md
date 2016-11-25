@@ -23,7 +23,7 @@ JavaScript_Modules
   
  > Pure javascript that works in modern browsers
 
-
+<br />
 ## 2. Module Formats and Loaders
 --------------------------------
 <br />
@@ -49,5 +49,8 @@ Loaders - Executes the syntax (Ex: RequireJS, SystemJS)
 4. System.register
     - Non native format. Not directly supported by javascript
     - A format that's supported by SystemJS
+
+5. ES2015 Module Format
+    - Native format.
 
 
