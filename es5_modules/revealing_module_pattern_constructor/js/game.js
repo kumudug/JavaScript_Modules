@@ -50,9 +50,10 @@ var game = function() {
             factor: factorElement.value
         };
     
-        // add the result and update the scoreboard        
-        scoreboard.addResult(result);
-        scoreboard.updateScoreboard();
+        // add the result and update the scoreboard
+        var myScoreboard = new Scoreboard();
+        myScoreboard.addResult(result);
+        myScoreboard.updateScoreboard();
     
         // disable the calculate score button
         document.getElementById('calculate').setAttribute('disabled', 'true');
