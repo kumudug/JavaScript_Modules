@@ -39,7 +39,7 @@ Loaders - Executes the syntax (Ex: RequireJS, SystemJS)
 
 2. CommonJS
     - Non native format. Not directly supported by javascript
-    - Mostly used in serverside javascript (Node)
+    - Mostly used in serverside javascript (NodeJS natively uses CommonJS format)
     - Still possible to use in browser (Using a loader like SystemJS)
 
 3. UMD - Universal Module Definition
@@ -52,5 +52,3 @@ Loaders - Executes the syntax (Ex: RequireJS, SystemJS)
 
 5. ES2015 Module Format
     - Native format.
-
-
