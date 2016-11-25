@@ -1,16 +1,17 @@
 JavaScript_Modules
 ==================
 
-1.ES5 Modules (Revealing Module Pattern)
+## 1. ES5 Modules (Revealing Module Pattern)
 ----------------------------------------
+<br /><br />
+### Two Major Patterns
 
-###Two Major Patterns
-
- > 1.1.Revealing Module Pattern - Singleton  
+ 1. Revealing Module Pattern - Singleton  
       
- > 1.2.Revealing Module Pattern - Constructor  
+ 2. Revealing Module Pattern - Constructor  
+    - Supports more than one instance
 
-###Features
+### Features  
 
  > Function scoping provides encapsulationi  
   
@@ -20,9 +21,16 @@ JavaScript_Modules
   
  > No dependancy management  
   
- > Pure javascript that works in modern browsers  
- 
+ > Pure javascript that works in modern browsers
 
- 
- 
-	
+
+## 2. Module Formats and Loaders
+----------------------------
+
+Formats - Syntax to define a module (Ex: AMD, CommonJS)
+
+Loaders - Executes the syntax (Ex: RequireJS, SystemJS)
+
+### Module Formats
+
+-
