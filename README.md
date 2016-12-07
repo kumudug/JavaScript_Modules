@@ -1,6 +1,8 @@
 JavaScript_Modules
 ==================
 
+Run "npm run build" to transpile the es2015 modules using babel
+
 ## 1. ES5 Modules (Revealing Module Pattern)
 ----------------------------------------
 <br />
