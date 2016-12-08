@@ -55,4 +55,16 @@ Loaders - Executes the syntax (Ex: RequireJS, SystemJS)
 5. ES2015 Module Format
     - Native format.
 
+<br />
+## 3. Module Bundlers
+--------------------------------
+<br />
 
+### Features  
+
+ > Solve the same problems as module loaders but as a build step rather than on the runtime
+
+ > Correctly order dependancies
+
+ > Combine modules into fewer files
+  
